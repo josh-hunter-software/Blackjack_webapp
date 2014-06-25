@@ -14,7 +14,7 @@ helpers do
   arr = cards.map{|e| e[1] }
   total = 0
   arr.each do |value|
-      if value == "Ace"
+      if value == "ace"
       total += 11
     elsif value.to_i == 0 
       total += 10
